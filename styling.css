@@ -1,0 +1,689 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #081b29;
+    color: white;
+}        
+
+/*-----NAVBAR-----*/
+/*.nav-main{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10px;
+    background: #051129;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    
+}
+.logo{
+    position: relative;
+    font-size: 30px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+
+}
+.navbar a{
+    display: inline-block;
+    font-size: 25px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: 3s;
+}
+.navbar a:hover{
+    color: #0ef;
+}
+.menu-icon{
+    font-size: 40px;
+    color: black;
+    background-color: white;
+}
+.navbar-toggler{
+    display: none;
+    font-size: 28px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}*/
+.nav-main{
+    background: #051129;
+    font-weight: 600;
+    padding: 20px 10px;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    font-size: 25px;
+
+}
+.nav-item a{
+    color: white;
+}
+.nav-main a{
+    font-size: 25px;
+    font-weight: 600;
+    padding-left: 20px;
+    color: white;
+}
+
+
+
+/*------INTRODUCTION------*/
+.home{
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+    height: 100vh;
+    background: url(backgroung\ img.avif) no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    padding: 70px 10% 0;
+    color: #fff;
+
+}
+.home-content{
+    max-width: 600px;
+    margin-top: 50px;
+}
+.home-content h3{
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 2px;
+}
+.home-content h1{
+    font-size: 56px;
+    font-weight: 700;
+    margin: -3px 0;
+}
+.home-content p{
+    font-size: 20px;
+}
+.content-icon{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    border: 2px solid #0ef ;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    color: #0ef;
+    margin: 20px 15px 30px 0;
+    padding: 5px;
+    transition: 0.8s;
+}
+.content-icon:hover{
+    background: #0ef;
+    color: black;
+     box-shadow: 10px 20px 36px rgba(255, 255, 255, 0.2);
+}
+.btn-box{
+    display: inline-block;
+    padding: 12px 28px;
+    background: #0ef;
+    border-radius: 40px;
+    font-size: 16px;
+    color: black;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: 600;
+}
+.btn-box:hover{
+    box-shadow: 10px 20px 36px rgba(255, 255, 255, 0.2);
+}
+.text{
+    color: #0ef;
+}
+
+
+
+
+/*------ABOUT------*/
+.about-main{  
+    margin: 50px; 
+    padding: 30px;
+}
+.about-img img{
+    padding-bottom: 10%;
+    max-width: 550px;
+    height: auto;
+    width: 100%;
+    border-radius: 30px;
+
+}
+.about-text{
+     padding: 20px 10px;
+}
+.about-text h2{
+    font-size: 60px;
+}
+.about-text h2 span{
+    color: #0ef;
+}
+.about-text h4{
+    font-size: 29px;
+    font-weight: 600;
+    color: #fff;
+    line-height: 1.7;
+    margin: 15px 0 30px;
+}
+.about-text p{
+    color: aliceblue;
+    font-size: 20px;
+    line-height: 1.4;
+    margin-bottom: 4rem;
+}
+
+
+
+/*-----SERVICES------*/
+.container{
+    padding: 90px;
+}
+#services{
+    color: aliceblue;
+    font-size: large;
+    line-height: 1.4;
+    margin-bottom: 4rem;
+}
+.service-main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.sub-title{
+    text-align: center;
+    font-size: 60px;
+    padding-bottom: 50px;
+
+}
+.service-list{
+    padding: 20px;
+    gap: 40px;
+    margin-top: 50px;
+}
+.service-list div{
+    background-color: transparent;
+    padding: 40px;
+    font-size: 13px;
+    font-weight: 130;
+    border-right: 10px;
+    border-radius: 20px;
+    transition: background 0.5s,transform 0.5s;
+    box-shadow: 1px 1px 20px;
+}
+.service-icon{
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+.service-list div h2{
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.service-list div p{
+    font-size: 20px;
+}
+.service-list div a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 12px;
+    margin-top: 20px;
+    display: inline-block;
+}
+.read{
+    padding: 12px 20px;
+    display: inline-block;
+    background: #0ef;
+    border-radius: 40px;
+    font-size: 16px;
+    color: #081b29;
+    text-decoration: none; 
+    font-weight: 600;
+    box-shadow: 0 0 5px #0ef;
+}
+.read:hover{
+    box-shadow: 10px 20px 36px rgba(255, 255, 255, 0.2);
+}
+.service-list div:hover{
+    transform: translateY(-10px);
+}
+
+
+
+/*-----MY SKILLS-----*/
+.skill-con{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.container1{
+    width: 600px;
+    height: 500px;
+    padding: 75px 90px;
+}
+.progress-fill{
+    height: 100%;
+    width: 0;
+    border-radius: 10px;
+    animation: fillBar 1.5s ease-in-out forwards;
+}
+@keyframes fillBar{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: var(--target-width);
+    }
+}
+.html{--target-width: 90%}
+.css{--target-width: 80%}
+.javascript{--target-width: 73%}
+.react{--target-width: 50%}
+
+
+.heading1{
+  text-align: center;  
+  text-decoration: underline;
+  text-underline-offset: 10px;
+  text-decoration-thickness: 5px;
+  margin-bottom: 50px;
+}
+.bar{
+    font-size: 23px;
+}
+.technical-bar .bar{
+    margin-top: 40px 0;
+}
+.technical-bar .bar:first-child{
+    margin-top: 0;
+}
+.technical-bar .bar:last-child{
+    margin-bottom: 0;
+}
+.technical-bar .bar .info{
+    margin-bottom: 5px;
+}
+.technical-bar .bar .info span{
+    font-size: 17px;
+    font-weight: 500;
+    animation: showText 0.5s linear forwards;
+    opacity: 0;
+
+    
+}
+.progress-line{
+    position: relative;
+    border-radius: 10px;
+    width: 100%;
+    height: 5px;
+    background-color: #000000;
+    
+}
+@keyframes showText{
+    100%{
+        opacity: 1;
+    }
+}
+@keyframes animate{
+    0%{
+        transform: scaleX(0);
+    }
+    100%{
+        transform: scaleX(1)
+    }
+}
+/*.progress-line span{
+    height: 100%;
+    width: 100%;
+    background-color: #0ef;
+    position: absolute;
+    border-radius: 10px;
+    animation: animate 1s 1s cubic-bezier(1,0,0,5,1) forwards;
+    transform: scaleX(0);
+    transform-origin: left;
+}
+.progress-line span.html{
+    width: 90%;
+    
+}
+.progress-line.css span{
+    width: 80%;
+    
+}
+.progress-line.javascript span{
+    width: 65%;
+    
+}
+.progress-line.react span{
+    width: 30%;
+    
+}
+.progress-line span::after{
+    position: absolute;
+    padding: 1px 8px;
+    background-color: #000;
+    color: white;
+    font-size: 17px;
+    border-radius: 3px;
+    top: -20px;
+    right: -20px;
+
+}*/
+.sub-title1{
+    text-align: center;
+    font-size: 60px;
+    padding-bottom: 20px;
+    padding-top: 70px;
+}
+.radial-bars{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+.radial-bar{
+    width: 50%;
+    height: 170px;
+    margin-bottom: 10px;
+    position: relative;
+}
+.radial-bar svg{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-90deg);
+    width: 120px;
+    height: 160px;
+
+
+}
+.radial-bars .radial-bar .progress-line{
+    stroke-width: 10;
+    stop-color: #000;
+    fill: transparent;
+    stroke-dasharray: 502;
+    stroke-dashoffset: 502;
+    stroke-linecap: round;
+    animation: animate-bar 1s linear forwards;
+}
+@keyframes animate-bar{
+    100%{
+        stroke-dashoffset: -1;
+    }
+}
+.path{
+    stroke-width: 10;
+    stroke: #0ef;
+    fill: transparent;
+    stroke-dasharray: 502;
+    stroke-dashoffset: 502;
+    stroke-linecap: round;
+}
+.path-1{animation: animate-path1 1s 1s linear forwards;}
+.path-2{animation: animate-path2 1s 1s linear forwards;}
+.path-3{animation: animate-path3 1s 1s linear forwards;}
+.path-4{animation: animate-path4 1s 1s linear forwards;}
+
+@keyframes animate-path1{
+    100%{
+        stroke-dashoffset: 50;
+    }
+}
+@keyframes animate-path2{
+    100%{
+        stroke-dashoffset: 100;
+    }
+}
+@keyframes animate-path3{
+    100%{
+        stroke-dashoffset: 70;
+    }
+}
+@keyframes animate-path4{
+    100%{
+        stroke-dashoffset: 150;
+    }
+}
+.radial-bar .percentage{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 17px;
+    font-weight: 700;
+}
+.radial-bar .text{
+   width: 100%; 
+   position: absolute;
+   text-align: center;
+   bottom: -30px;
+   font-size: 17px;
+   font-weight: 500;
+
+}
+
+
+
+
+
+/*-------PORTFOLIO--------*/
+.main-text{
+    padding-top: 130px;
+    margin-top: 200px;
+}
+.main-text h2{
+    font-size: 60px;
+    line-height: 1px;
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+.portfolio-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, auto));
+    overflow: hidden;
+}
+.row{
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.row img{
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+    transition: transform 0.5s;
+}
+.layer{
+    width: 100%;
+    height: 0;
+    background: linear-gradient(rgba(0,0,0,0.1),#0ef);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 40px;
+    transition: height 0.5s;
+}
+.layer h5{
+    color: #000;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.layer p{
+    font-size: 1rem;
+    color: #000;
+    line-height: 1.8;
+}
+.port-icon{
+    color: red;
+    margin-top: 20px;
+    font-size: 20px;
+    background: wh;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.row:hover img{
+    transform: scale(1.1);
+
+}
+.row:hover .layer{
+    height: 100%;
+}
+
+
+
+
+
+/*--------CONTACT-------*/
+.contact-main{
+    align-items: center;
+    gap: 3rem;
+    margin-top: 120px;
+    padding: 20px;
+    
+}
+.contact-text h2{
+    font-size: 90px;
+    line-height: 1;
+    text-align: center;
+}
+.contact-text h4{
+    margin: 15px 0;
+    color: rgb(177, 177, 177);
+    font-size: 20px;
+    font-weight: 600;
+}
+.contact-text{
+    color: rgb(177, 177, 177);
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 2rem;
+}
+.contact-list li{
+    margin-bottom: 10px;
+    display: block;
+}
+.contact-list{
+    margin-bottom: 3rem;
+}
+.cont-icon{
+    font-size: 25px;
+    font-weight: 600;
+    color: #0ef;
+    display: inline-block;
+    transition: all 10s ease;
+}
+.contact-list li a:hover {
+    transform: scale(1.01) translateY(-5px);
+    color: aqua;
+}
+.cont-icon1{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid #0ef;
+    border-radius: 50%;
+    font-size: 20px;
+    color: aqua;
+    text-decoration: none;
+    margin: 30px 15px 30px 0;
+    transition: 5s ease;
+
+}
+
+.cont-icon1:hover{
+    background-color: aqua;
+    color: black;
+    box-shadow: 0 0 2px #0ef;
+}
+.contact-form form{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+.contact-form form input,form textarea{
+    border: none;
+    outline: none;
+    width: 90%;
+    padding: 18px;
+    background: #555557;
+    color: #000;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    border-radius: 0.5rem;
+}
+.contact-form form .send{
+    padding: 12px 20px;
+    display: inline-block;
+    background: #0ef;
+    border-radius: 40px;
+    font-size: 16px;
+    color: #081b29;
+    text-decoration: none; 
+    font-weight: 600;
+    box-shadow: 0 0 5px #0ef;
+    animation-delay: 2s;
+}
+.contact-form form .send:hover{
+    box-shadow: 10px 20px 36px rgba(255, 255, 255, 0.2);
+}
+
+
+
+
+.last-text p{
+    width: 100%;
+    text-align: center;
+    padding: 25px 0;
+    background: rgb(7, 85, 91);
+    font-weight: 300;
+    margin-top: 70px;
+
+}
+.top{
+    position: fixed;
+    bottom: 2.1rem;
+    right: 2.1rem;
+}
+.top ion-icon{
+    color: #000;
+    background: #0ef;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 0.5rem;
+    
+}
+
+
+
+
